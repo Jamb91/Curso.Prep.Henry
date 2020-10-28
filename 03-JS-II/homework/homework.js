@@ -92,12 +92,10 @@ function esPrimo(numero) {
   if(numero === 0 || numero === 1){
     return false
   }else{
-    for(let i = 0; i < numero; i++){
-      if(numero % i === 0){
-        return null
-      }else{
-        return null
-      }
+    if(numero % 1 === 0 && numero % numero === 0){
+      return true;
+    }else{
+      return false;
     }
   }
 }
