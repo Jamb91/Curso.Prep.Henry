@@ -26,7 +26,7 @@ function saludo(idioma) {
   }else if(idioma === "ingles"){
     return "Hello!"
   }else{
-    return;
+    return undefined;
   }
 }
 
