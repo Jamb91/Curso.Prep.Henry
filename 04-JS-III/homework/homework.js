@@ -4,6 +4,7 @@ function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un array
   // Tu código:
   //Esta es una prueba de push desde vscode to github remote
+  //El otro lado de github a vscode
 }
 
 function devolverUltimoElemento(array) {
